@@ -1,0 +1,88 @@
+body {
+    background: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Georgia;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginFont {
+    font-size: 25px;
+    color: white;
+    border-color: black;
+}
+
+.title {
+    text-align: center;
+    padding: 8% 0% 3% 0%;
+}
+
+.loginSection {
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 15px 0px 15px 0px;
+    margin: 5px;
+    border-radius: 20px;
+    text-indent: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.557);
+}
+
+.longin {
+    width: 400px;
+}
+
+.signinButton {
+    width: 90%;
+    padding: 15px 0px 15px 0px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(247, 177, 164);
+}
+
+.optionMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    color: rgb(61, 9, 9);
+    font-size: 15px;
+}
+
+.accountFont {
+    font-size: 20px;
+    color: white;
+}
+
+button {
+    width: 180px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+
+.orSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.orFont {
+    color: white;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+}
